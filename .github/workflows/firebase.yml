@@ -19,7 +19,7 @@ jobs:
     
     - name: Build
       run: |
-        npm start
+        npm run build
     
     - name: Deploy to Firebase
       run: |
