@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Install Firebase CLI
-      uses: FirebaseExtended/action-hosting-deploy@v1
+      uses: FirebaseExtended/action-hosting-deploy@v0
       with:
         firebase_version: '9.23.0'
     
